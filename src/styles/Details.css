@@ -1,0 +1,38 @@
+.button{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #2a2a72;
+    color: #2a2a72;
+    border-radius: 30px 30px 0 30px;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.button:hover{
+    background-color:#54c066 ;
+    color: #2a2a72;
+}
+.button:focus{
+    outline:none;
+}
+.img-fluid{
+    padding-left: 20px;
+    width: auto;
+    height:350px;
+    border-radius:0;
+}
+#back{
+    background-color: rgb(247, 247, 247);
+}
+
+.add{
+    color: green;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 30px 30px 30px 0;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+    
+}

@@ -1,0 +1,50 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+
+body{
+  font-family: 'Noto Serif', serif !important;
+  padding: 30px;
+  background-image: url('./back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.all{
+  background-color: white;
+}
+.text-title{
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color:#2a2a72;
+  text-transform: capitalize;
+  
+}
+
+.text-bright{
+  color: rgb(156, 146, 146);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1rem !important;
+  color:#232528 !important;
+  border-radius: 0 !important;
+  border: 0.1rem solid #232528  !important;
+}
+
+.btn-black:hover{
+  background-color: #232528 ;
+  color: white !important;
+}
+
+.cart-icon{
+  font-size: 1.2rem;  
+  color: red;
+}

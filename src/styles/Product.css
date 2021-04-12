@@ -1,0 +1,48 @@
+.card {
+    background-color: #f8fafe;
+    /* padding: 10px; */
+    color: #2d3436;
+    /* border: 2px solid #2a2a72; */
+    transform: scale(1.05);
+    width: 100%;
+    transition: transform .2s; /* Animation */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+  
+.card:hover {
+    background-color: #e1f0f6;
+    transform: scale(1.1);
+    border-color: #7bed9f;
+    box-shadow: 0 5px 24px black;
+}
+
+.card img {
+    width: 100%;
+    background-color: transparent;
+    object-fit: cover;
+    height: 250px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.font{
+    font-size: 24px;
+}
+#rating sub{
+    color: #fdcb6e;
+    font-size:10px;
+}
+#fas{
+    font-size: 19px;
+}
+#rating{
+    color: #fdcb6e;
+font-size: 20px;
+}
